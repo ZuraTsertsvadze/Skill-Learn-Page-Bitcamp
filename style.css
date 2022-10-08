@@ -90,7 +90,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
 
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 main {
@@ -103,30 +103,30 @@ header {
 
 .box-1 {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   color: white;
-  padding: 30px;
-  margin-top: 40px;
+  padding: 1.875rem;
+  margin-top: 2.5rem;
 }
 
 .box-1 h1 {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 800;
 }
 
 .box h1 {
   font-style: normal;
   font-weight: 800;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
   color: #13183f;
 }
 
 .box p {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: #83869a;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
@@ -134,15 +134,15 @@ header {
 
 .box footer {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   color: #f74780;
 }
 
 .box {
-  padding: 56px 30px 30px 30px;
+  padding: 56px 1.875rem 1.875rem 1.875rem;
   background-color: white;
-  margin-top: 40px;
+  margin-top: 2.5rem;
   position: relative;
 }
 
@@ -157,14 +157,14 @@ header {
 
 .button-bot {
   color: white;
-  padding: 10px 24px;
+  padding: 0.625rem 1.5rem;
   background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
-  border-radius: 28px;
+  border-radius: 1.75rem;
   border: none;
 
   font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.75rem;
 }
 
 .button-bot:hover {
@@ -184,7 +184,7 @@ header {
 
   width: 100%;
   padding: 0rem 1rem;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -198,16 +198,16 @@ header {
 
 @media screen and (min-width: 768px) {
   .nav {
-    padding: 0px 40px 0px 40px;
-    margin-top: 24px;
+    padding: 0px 2.5rem 0px 2.5rem;
+    margin-top: 1.5rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    padding-bottom: 99px;
-    margin-left: 40px;
-    margin-right: 0px;
+    padding-bottom: 6.188rem;
+    margin-left: 2.5rem;
+    margin-right: 0rem;
     /* margin-top: 24px; */
     overflow: hidden;
     position: relative;
@@ -216,16 +216,16 @@ header {
 
 @media screen and (min-width: 768px) {
   main {
-    padding: 0px 34px 86px 34px;
-    margin: 0px;
+    padding: 0rem 2.125rem 5.375rem 2.125rem;
+    margin: 0rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .box {
-    width: 340px;
+    width: 21.25rem;
     /* height: 259px; */
-    margin-right: 10px;
+    margin-right: 0.625rem;
   }
 
   /* .box > footer{
@@ -237,29 +237,29 @@ header {
 }
 
 .sites-logo-white {
-  width: 89px;
+  width: 5.563rem;
 }
 
 .tablet-pic {
   display: none;
   position: absolute;
-  width: 640px;
-  height: 640px;
+  width: 40rem;
+  height: 40rem;
   z-index: -1;
-  top: -79px;
-  right: -275px;
+  top: -4.938rem;
+  right: -17.188rem;
 }
 
 .tablet-pic-cont {
-  width: 0px;
-  height: 0px;
+  width: 0rem;
+  height: 0rem;
 }
 
 @media screen and (min-width: 768px) {
   .box-1 {
-    width: 340px;
-    height: 283px;
-    margin-right: 10px;
+    width: 21.25rem;
+    height: 17.688rem;
+    margin-right: 0.625rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -276,14 +276,14 @@ header {
 
 @media screen and (min-width: 768px) {
   .paragraph-top {
-    width: 398px;
-    height: 78px;
+    width: 24.875rem;
+    height: 4.875rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .main-footer {
-    padding: 40px;
+    padding: 2.5rem;
   }
 }
 
@@ -294,17 +294,17 @@ header {
 @media screen and (min-width: 1190px) {
   .box,
   .box-1 {
-    width: 350px;
-    height: 322px;
-    margin-right: 20px;
+    width: 21.875rem;
+    height: 20.125rem;
+    margin-right: 1.25rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .box,
   .box-1 {
-    width: 350px;
-    height: 322px;
+    width: 21.875rem;
+    height: 20.125rem;
   }
 }
 
@@ -318,28 +318,28 @@ header {
   .desktop-pic {
     display: block;
     position: absolute;
-    top: -139px;
-    right: -319px;
-    width: 991px;
+    top: -8.688rem;
+    right: -19.938rem;
+    width: 61.938rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .nav {
-    padding-left: 165px;
-    padding-right: 165px;
+    padding-left: 10.313rem;
+    padding-right: 10.313rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .header {
-    padding-bottom: 212px;
+    padding-bottom: 13.25rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .main-footer {
-    padding: 32px 165px;
+    padding: 2rem 10.313rem;
   }
 }
 
@@ -347,42 +347,42 @@ header {
   .button-top,
   .button-top-pink,
   .button-bot {
-    padding: 15px 32px;
+    padding: 0.938rem 2rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .sites-logo-white,
   .skill-logo {
-    width: 111px;
+    width: 6.938rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .heading-top {
-    font-size: 56px;
-    line-height: 71px;
+    font-size: 3.5rem;
+    line-height: 4.438rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .box-1 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .box > h1 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .box > p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -396,13 +396,13 @@ header {
 
 @media screen and (min-width: 1178px) {
   .header {
-    max-width: 1220px;
+    max-width: 76.25rem;
   }
 }
 
 @media screen and (min-width: 1178px) {
   main {
-    max-width: 1220px;
+    max-width: 76.25rem;
   }
 }
 
@@ -410,7 +410,7 @@ header {
 
 @media screen and (min-width: 1118px) {
   .photo,.design{
-    height: 283px;
+    height: 17.688rem;
   }
 }
 
@@ -418,7 +418,7 @@ header {
 
 @media screen and (min-width: 1118px) {
   .photo>p,.design>p{
-    margin-bottom: 55px;
+    margin-bottom: 3.438rem;
   }
 }
 
@@ -426,21 +426,21 @@ header {
 
 @media screen and (min-width: 1150px) {
   .photo,.design{
-    height: 322px;
+    height: 20.125rem;
   }
 }
 
 
 @media screen and (min-width: 1150px) {
   .photo{
-   padding-bottom:  29px;
+   padding-bottom: 1.813rem;
   }
 }
 
 
 @media screen and (min-width: 1150px) {
   .photo>P,.design>p{
-   height:  112px;
+   height:  7rem;
   }
 }
 
